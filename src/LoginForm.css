@@ -7,7 +7,7 @@
     border-radius: 25px;
     width:900px;
     height:80vh;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -25,7 +25,7 @@
 }
 .registerbtn{
     width:50%;
-    border:2px solid white;
+    border:2px solid rgb(0, 0, 0);
     background-color: aquamarine;
     
 }
