@@ -1,3 +1,4 @@
+/* Login Form */
 .login-form{
     display: flex;
     justify-content: center;
@@ -9,6 +10,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
 }
+
+/* Left Part of Login Form */
+
 .Left-part{
     display: flex;
     justify-content: center;
@@ -19,6 +23,15 @@
     background-color: aquamarine;
     border-radius: 25px 120px 120px 25px;
 }
+.registerbtn{
+    width:50%;
+    border:2px solid white;
+    background-color: aquamarine;
+    
+}
+
+/* Left Part of Login Form */
+
 .Right-part{
     display: flex;
     justify-content: center;
@@ -29,17 +42,70 @@
      height:100%;
 
 }
+/* Username Input */
 .usernameInput{
     width: 80%;
-    padding: 10px;
+    height:50px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    display:flex;
 }
+#Username{
+     width: 80%;
+     height:95%;
+     padding-left: 20px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     font-size: 20px;
+}
+#usericondiv{
+    width:20%;
+    height: 100%;
+
+}
+#usericon{
+    padding-top: 5px;
+}
+/* Passsword Input */
 .passwordInput{
     width: 80%;
-    padding: 10px;
+    height:50px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    display:flex;
+}
+#Password{
+     width: 80%;
+     height:95%;
+     padding-left: 20px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     font-size: 20px;
+}
+#passicondiv{
+    width:20%;
+    height: 100%;
+
+}
+#passicon{
+    padding-top: 12px;
+}
+/* Login Button */
+.Loginbtn{
+    width: 80%;
+    height:50px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+/* Social Account Login */
+.socialaccount{
+    display:flex;
+    justify-content: center;
+    padding:0px;
+    height:50px;
+    width:80px;
 }

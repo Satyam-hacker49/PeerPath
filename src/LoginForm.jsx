@@ -14,7 +14,7 @@ export default function LoginForm(){
                 <div>
                 <h1>Helo,Welcome!</h1>
                 <p>Don't have an account?</p>
-                <button>Register</button>
+                <button className="registerbtn">Register</button>
                 </div>
                
             </div>
@@ -23,20 +23,22 @@ export default function LoginForm(){
                  <h1>Login</h1>
                  <div className="usernameInput">
                     <input type="text" placeholder="Username" id="Username" ></input>
-                    <label htmlFor="Username"><PersonIcon></PersonIcon></label>
+                    <div id="usericondiv"><label htmlFor="Username"  ><PersonIcon id="usericon" fontSize="large" ></PersonIcon></label></div>
+                    
                  </div>
                  <div className="passwordInput">
                     <input type="password" placeholder="Password" id="Password" ></input>
-                    <label htmlFor="Password"><VisibilityOffIcon></VisibilityOffIcon></label>
+                    <div id="passicondiv"><label htmlFor="Password"><VisibilityOffIcon id="passicon"></VisibilityOffIcon></label></div>
+                    
                  </div>
 
                   <p>Forgot Password?</p>
-                  <button>Login</button>
+                  <button className="Loginbtn">Login</button>
                   <p>or login with social platforms</p>
 
-                  <ul>
-                    <a href=""><LinkedInIcon style={{ color: 'black' }}></LinkedInIcon></a>
-                    <a href=""><GitHubIcon style={{ color: 'black' }}></GitHubIcon></a>
+                  <ul className="socialaccount">
+                    <a href="" ><LinkedInIcon style={{ color: 'black',height:"50px",width:"50px",marginRight:"30px" }}></LinkedInIcon></a>
+                    <a href="" ><GitHubIcon style={{ color: 'black',height:"50px",width:"50px" }}></GitHubIcon></a>
                   </ul>
                  
                 
