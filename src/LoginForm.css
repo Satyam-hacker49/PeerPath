@@ -1,0 +1,45 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #ccc;
+    border-radius: 25px;
+    width:900px;
+    height:80vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.Left-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:left; 
+    width:50%;
+    height:100%;
+    background-color: aquamarine;
+    border-radius: 25px 120px 120px 25px;
+}
+.Right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     float:right;
+     width:50%;
+     height:100%;
+
+}
+.usernameInput{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.passwordInput{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
