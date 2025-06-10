@@ -30,7 +30,7 @@
     
 }
 
-/* Left Part of Login Form */
+/* Right Part of Login Form */
 
 .Right-part{
     display: flex;
@@ -67,6 +67,7 @@
 }
 #usericon{
     padding-top: 5px;
+    cursor: pointer;
 }
 /* Passsword Input */
 .passwordInput{
@@ -93,6 +94,7 @@
 }
 #passicon{
     padding-top: 12px;
+    cursor: pointer;
 }
 /* Login Button */
 .Loginbtn{
