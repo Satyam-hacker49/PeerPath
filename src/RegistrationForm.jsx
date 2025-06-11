@@ -1,9 +1,27 @@
 import "./RegistrationForm.css";
+import { useState } from "react";
 import PersonIcon from '@mui/icons-material/Person';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function RegistrationForm(){
+    let [data, setdata] = useState({scholarNum:"", issue: ""});
+
+    function updateValue(e){
+        setdata({...data, [e.target.name ]: e.target.value});
+    }
+
+    function handleSubmit(){
+        if(data.scholarNum === "" || data.issue === ""){
+            alert("Please fill all the fields");
+            return;
+        }
+        else{
+            console.log(data);
+            alert("Response Submitted Successfully");
+
+        }
+    }
 
     return(
 
@@ -27,16 +45,16 @@ export default function RegistrationForm(){
                  <p>Still Have Issue?</p>
 
                  <div className="scholarnuminput">
-                    <input type="text" placeholder="Scholar Number" id="scholarNum" ></input>
+                    <input type="text" placeholder="Scholar Number" id="scholarNum" name="scholarNum" value={data.scholarNum} onChange={updateValue} ></input>
                     <div id="scholarNumicondiv"><label htmlFor="scholarNum" ><PersonIcon id="scholaricon" fontSize="large" ></PersonIcon></label>
                  </div>
                     
                  </div>
                  <div className="IssueInput">
-                    <textarea placeholder="Issue Encountered" id="Issue" ></textarea>
+                    <textarea placeholder="Issue Encountered" id="Issue" name="issue" value={data.issue} onChange={updateValue} ></textarea>
                  </div>
 
-                 <button className="issuesubmitbtn">Submit Response</button>
+                 <button className="issuesubmitbtn" onClick={handleSubmit}>Submit Response</button>
                 
             </div>
 
