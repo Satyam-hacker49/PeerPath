@@ -69,6 +69,11 @@
     font-size: 20px;
     background-color: aquamarine;
 }
+.issuesubmitbtn:hover{
+    background-color: #e0f7fa;
+    transition: background-color 0.3s ease-in-out,transform 0.3s ease-in-out;
+    transform:scale(1.03);
+}
 
 /* Right Part of Login Form */
 .Registration-form{
@@ -97,6 +102,11 @@
     border:2px solid rgb(0, 0, 0);
     background-color: aquamarine;
     
+}
+.loginbtn:hover{
+    background-color: #e0f7fa;
+    transition: background-color 0.3s ease-in-out,transform 0.3s ease-in-out;
+    transform:scale(1.05);
 }
 
 /* Registration Social icon */
@@ -129,4 +139,8 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+.regis-icon-link:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }

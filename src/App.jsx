@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-    {/* <LoginForm /> */}
-    <RegistrationForm />
+    <LoginForm />
+    {/* <RegistrationForm /> */}
     </>
   )
 }

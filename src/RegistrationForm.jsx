@@ -19,6 +19,7 @@ export default function RegistrationForm(){
         else{
             console.log(data);
             alert("Response Submitted Successfully");
+            setdata({scholarNum:"", issue: ""}); 
 
         }
     }
