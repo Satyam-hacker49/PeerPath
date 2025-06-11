@@ -13,21 +13,17 @@ export default function RegistrationForm(){
                  <h1>Registration</h1>
 
                      <div className="regis-social-section">
-        <div className="regis-social-title">Register on</div>
-        <div className="Regis-socialaccount">
-            <a href="#" className="regis-icon-link">
-                <LinkedInIcon style={{ color: 'black', height: "50px", width: "50px" }} />
-            </a>
-            <a href="#" className="regis-icon-link">
-                <GitHubIcon style={{ color: 'black', height: "50px", width: "50px" }} />
-            </a>
-        </div>
-    </div>
-                  {/* <ul className="Regis-socialaccount">
-                    <a href="" >Register on <LinkedInIcon style={{ color: 'black',height:"50px",width:"80px",marginRight:"50px" }}></LinkedInIcon></a>
-                    <a href="" >Register on <GitHubIcon style={{ color: 'black',height:"50px",width:"90px" }}></GitHubIcon></a>
-                  </ul> */}
-
+                        <div className="regis-social-title">Register on</div>
+                        <div className="Regis-socialaccount">
+                            <a href="#" className="regis-icon-link">
+                                <LinkedInIcon style={{ color: 'black', height: "50px", width: "50px" }} />
+                            </a>
+                            <a href="#" className="regis-icon-link">
+                                <GitHubIcon style={{ color: 'black', height: "50px", width: "50px" }} />
+                            </a>
+                        </div>
+                     </div>
+    
                  <p>Still Have Issue?</p>
 
                  <div className="scholarnuminput">
