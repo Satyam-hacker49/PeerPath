@@ -15,10 +15,10 @@ export default function RegistrationForm(){
                      <div className="regis-social-section">
                         <div className="regis-social-title">Register on</div>
                         <div className="Regis-socialaccount">
-                            <a href="#" className="regis-icon-link">
+                            <a className="regis-icon-link" href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F">
                                 <LinkedInIcon style={{ color: 'black', height: "50px", width: "50px" }} />
                             </a>
-                            <a href="#" className="regis-icon-link">
+                            <a className="regis-icon-link" href="https://github.com/signup">
                                 <GitHubIcon style={{ color: 'black', height: "50px", width: "50px" }} />
                             </a>
                         </div>
