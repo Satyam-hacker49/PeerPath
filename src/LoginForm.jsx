@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default function LoginForm(){
+export default function LoginForm({ onRegisterClick }) {
     let [formdata, setformdata] = useState({username:"", password: ""});
 
     function updateFormdata(e){
@@ -28,9 +28,9 @@ export default function LoginForm(){
 
             <div className="Left-part">
                 <div>
-                <h1>Helo,Welcome!</h1>
+                <h1>Hello, Welcome!</h1>
                 <p>Don't have an account?</p>
-                <button className="registerbtn">Register</button>
+                <button className="registerbtn" onClick={onRegisterClick}>Register</button>
                 </div>
                
             </div>
